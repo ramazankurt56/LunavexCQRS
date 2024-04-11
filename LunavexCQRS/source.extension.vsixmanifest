@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="LunavexCQRS.53639516-5154-4dfe-b2b5-79eb3251d6f0" Version="1.0" Language="en-US" Publisher="RamazanKurt" />
+        <DisplayName>Lunavex.CQRS</DisplayName>
+        <Description xml:space="preserve"> Lunavex.CQRS is designed for developers working on .NET projects following Clean Architecture principles and utilizing the CQRS pattern. This extension automatically generates project file structures.</Description>
+        <License>LICENSE.txt</License>
+        <GettingStartedGuide>Started.txt</GettingStartedGuide>
+        <Icon>lunavex1.png</Icon>
+        <PreviewImage>Resources\Icon.png</PreviewImage>
+        <Tags>Query .net Command CQRS</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    </Assets>
+</PackageManifest>

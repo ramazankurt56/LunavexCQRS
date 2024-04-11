@@ -1,0 +1,14 @@
+Extension Name: Lunavex.CQRS
+
+Description:
+Lunavex.CQRS is designed for developers who utilize the CQRS (Command Query Responsibility Segregation) pattern in .NET projects built with Clean Architecture principles. This extension automatically generates the fundamental file structures of your project and requires FluentValidation and MediatR libraries to be installed.
+
+Usage:
+
+Domain Layer: In your project's Domain layer, there should be a folder named Entities. Right-click on the relevant entity and access the "CreateCQRS" option.
+
+Application Layer: In the Application layer of your project, there should be a folder named Features.
+
+How to Use: Right-click on the relevant entity and select the "CreateCQRS" option. The extension will automatically generate the necessary file structures and basic files for the entity.
+
+This extension requires FluentValidation and MediatR libraries to be installed and assists you in creating the basic files in accordance with Clean Architecture principles while using the CQRS pattern.
